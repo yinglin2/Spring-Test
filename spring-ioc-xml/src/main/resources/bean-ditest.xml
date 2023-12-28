@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="dept" class="com.spring.iocxml.ditest.Department">
+        <property name="dname" value="安保部"></property>
+    </bean>
+
+    <bean id="emp" class="com.spring.iocxml.ditest.Employee">
+        <property name="ename" value="lucy"></property>
+        <property name="age" value="50"></property>
+        <property name="department" ref="dept"></property>
+    </bean>
+
+
+    <bean id="emp2" class="com.spring.iocxml.ditest.Employee">
+        <property name="ename" value="Jony"></property>
+        <property name="age" value="30"></property>
+        <property name="department">
+            <bean id="dept2" class="com.spring.iocxml.ditest.Department">
+                <property name="dname" value="财务部"></property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="dept3" class="com.spring.iocxml.ditest.Department">
+        <property name="dname" value="技术开发部"></property>
+    </bean>
+    <bean id="emp3" class="com.spring.iocxml.ditest.Employee">
+        <property name="ename" value="Tyran"></property>
+        <property name="age" value="34"></property>
+        <property name="department" ref="dept3"></property>
+        <property name="department.dname" value="测试部"></property>
+    </bean>
+</beans>

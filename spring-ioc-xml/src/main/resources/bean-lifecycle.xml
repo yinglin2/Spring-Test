@@ -3,7 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="com.spring.iocxml.bean.User"></bean>
-
-    <bean id="userDao" class="com.spring.iocxml.bean.UserDaoImpl"></bean>
+    <bean id="user" class="com.spring.iocxml.lifecycle.User" scope="singleton" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="name" value="lucy"></property>
+    </bean>
+    <bean id="myBeanPostProcessor" class="com.spring.iocxml.lifecycle.MyBeanPostProcessor"></bean>
 </beans>
