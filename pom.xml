@@ -11,6 +11,7 @@
     <modules>
         <module>spring-first</module>
         <module>spring-ioc-xml</module>
+        <module>spring-ioc-annotation</module>
     </modules>
 
     <properties>
@@ -50,6 +51,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.0.31</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
         </dependency>
     </dependencies>
 
