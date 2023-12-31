@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="329f4fd7-dc2b-48bd-818d-4849e8571ecc" name="Changes" comment="upload spring ioc xml">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/autowire/TestUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/autowire/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/autowire/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/autowire/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/autowire/dao/UserRedisDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/autowire/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/autowire/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/bean/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource/TestUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource/TestUserControllerAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="329f4fd7-dc2b-48bd-818d-4849e8571ecc" name="Changes" comment="upload spring ioc annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,46 +32,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TestDept.executor": "Run",
-    "Application.TestEmp.executor": "Run",
-    "Application.TestOrders.executor": "Run",
-    "Application.TestUser.executor": "Run",
-    "Application.TestUserController.executor": "Run",
-    "Application.TestUserControllerAnno.executor": "Run",
-    "Application.TestUserDao.executor": "Run",
-    "Application.com.spring.bean.TestUser.executor": "Run",
-    "Application.com.spring.iocxml.autowire.TestUser.executor": "Run",
-    "Application.com.spring.iocxml.factorybean.TestUser.executor": "Run",
-    "Application.com.spring.resource.TestUserController.executor": "Run",
-    "JUnit.TestBook.testConstructor.executor": "Run",
-    "JUnit.TestBook.testSetter.executor": "Run",
-    "JUnit.TestJdbc.demo2.executor": "Run",
-    "JUnit.TestStu.testStu.executor": "Run",
-    "JUnit.TestStu.testStu2.executor": "Run",
-    "JUnit.TestUser.executor": "Run",
-    "JUnit.TestUser.testUserObject.executor": "Run",
-    "JUnit.TestUser.testUserObject1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yinglin/Documents/GitHub/Spring-Test/spring-ioc-annotation/src/main/java/com/spring/resource",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/yinglin/Documents/GitHub/Spring-Test/spring-ioc-annotation/src/main/java/com/spring/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestDept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEmp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOrders.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestUserController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestUserControllerAnno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestUserDao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.spring.bean.TestUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.spring.iocxml.autowire.TestUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.spring.iocxml.factorybean.TestUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.spring.resource.TestUserController.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBook.testConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBook.testSetter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJdbc.demo2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestStu.testStu.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestStu.testStu2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUser.testUserObject.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUser.testUserObject1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yinglin/Documents/GitHub/Spring-Test/spring-ioc-annotation/src/main/java/com/spring/resource&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/yinglin/Documents/GitHub/Spring-Test/spring-ioc-annotation/src/main/java/com/spring/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-ioc-annotation/src/main/java/com/spring/resource" />
@@ -199,7 +177,8 @@
       <workItem from="1703470664378" duration="4271000" />
       <workItem from="1703577376590" duration="6307000" />
       <workItem from="1703666042880" duration="3821000" />
-      <workItem from="1703731446639" duration="15418000" />
+      <workItem from="1703731446639" duration="16253000" />
+      <workItem from="1703919980677" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="upload spring first">
       <option name="closed" value="true" />
@@ -217,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703751096475</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upload spring ioc annotation">
+      <option name="closed" value="true" />
+      <created>1703763617539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703763617539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upload spring first" />
     <MESSAGE value="upload spring ioc xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload spring ioc xml" />
+    <MESSAGE value="upload spring ioc annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload spring ioc annotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
