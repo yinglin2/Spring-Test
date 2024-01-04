@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="329f4fd7-dc2b-48bd-818d-4849e8571ecc" name="Changes" comment="upload spring ioc imp">
-      <change afterPath="$PROJECT_DIR$/spring-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/annoaop/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/annoaop/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/annoaop/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/annoaop/TestAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/example/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/example/CalculatorLogImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/example/CalculatorStaticProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/example/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/example/TestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/xmlaop/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/xmlaop/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/xmlaop/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/spring/aop/xmlaop/TestAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/resources/beanaop.xml" afterDir="false" />
+    <list default="true" id="329f4fd7-dc2b-48bd-818d-4849e8571ecc" name="Changes" comment="upload spring aop">
+      <change afterPath="$PROJECT_DIR$/spring-junit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-junit/src/main/java/com/spring/junit/junit5/SpringTestJunit5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-junit/src/main/java/com/spring/junit/junit5/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-junit/src/main/resources/bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -36,8 +23,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +35,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2a10Dp37L1SqgAg2GvHI74KEFuq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +57,7 @@
     "Application.com.spring.iocxml.autowire.TestUser.executor": "Run",
     "Application.com.spring.iocxml.factorybean.TestUser.executor": "Run",
     "Application.com.spring.resource.TestUserController.executor": "Run",
+    "JUnit.SpringTestJunit5.testUser.executor": "Run",
     "JUnit.TestAop.testAdd.executor": "Run",
     "JUnit.TestBook.testConstructor.executor": "Run",
     "JUnit.TestBook.testSetter.executor": "Run",
@@ -89,7 +79,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/yinglin/Documents/GitHub/Spring-Test/spring-aop/src/main/java/com/spring/Main.java",
+    "onboarding.tips.debug.path": "/Users/yinglin/Documents/GitHub/Spring-Test/spring-junit/src/main/java/com/spring/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -108,7 +98,7 @@
       <recent name="com.spring.resource" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAop.testAdd">
+  <component name="RunManager" selected="JUnit.SpringTestJunit5.testUser">
     <configuration name="AnnotationApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.bean.AnnotationApplicationContext" />
       <module name="spring-impl" />
@@ -148,15 +138,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUserControllerAnno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.resource.TestUserControllerAnno" />
-      <module name="spring-ioc-annotation" />
+    <configuration name="SpringTestJunit5.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.resource.*" />
+          <option name="PATTERN" value="com.spring.junit.junit5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.junit.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.junit.junit5.SpringTestJunit5" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringTestJunit5.testUser" />
         <item itemvalue="JUnit.TestAop.testAdd" />
         <item itemvalue="Application.TestCalculator" />
         <item itemvalue="Application.TestUser" />
         <item itemvalue="Application.AnnotationApplicationContext" />
-        <item itemvalue="Application.TestUserControllerAnno" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +202,7 @@
       <workItem from="1703731446639" duration="16253000" />
       <workItem from="1703919980677" duration="48000" />
       <workItem from="1704009386694" duration="5500000" />
-      <workItem from="1704355627250" duration="8195000" />
+      <workItem from="1704355627250" duration="9624000" />
     </task>
     <task id="LOCAL-00001" summary="upload spring first">
       <option name="closed" value="true" />
@@ -251,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704356365448</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="upload spring aop">
+      <option name="closed" value="true" />
+      <created>1704364393127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704364393127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +263,8 @@
     <MESSAGE value="upload spring ioc xml" />
     <MESSAGE value="upload spring ioc annotation" />
     <MESSAGE value="upload spring ioc imp" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload spring ioc imp" />
+    <MESSAGE value="upload spring aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload spring aop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
