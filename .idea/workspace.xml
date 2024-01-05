@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="329f4fd7-dc2b-48bd-818d-4849e8571ecc" name="Changes" comment="upload spring resource">
-      <change afterPath="$PROJECT_DIR$/spring-i18n/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-i18n/src/main/java/com/spring/javai18n/ResourceI18n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-i18n/src/main/java/com/spring/springi18n/ResourceI18n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-i18n/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-i18n/src/main/resources/messages_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-i18n/src/main/resources/messages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-i18n/src/main/resources/spring_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-i18n/src/main/resources/spring_zh_CN.properties" afterDir="false" />
+    <list default="true" id="329f4fd7-dc2b-48bd-818d-4849e8571ecc" name="Changes" comment="upload spring i18n">
+      <change afterPath="$PROJECT_DIR$/spring-validator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/four/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/four/NoSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/four/NoSpaceValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/four/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/four/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/four/ValidationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/one/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/one/PersonValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/one/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/three/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/three/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/three/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/three/ValidationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/two/MyValidation1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/two/MyValidation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/two/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/two/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-validator/src/main/java/com/spring/validator/two/ValidationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -25,10 +36,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,6 +69,7 @@
     "Application.TestDept.executor": "Run",
     "Application.TestEmp.executor": "Run",
     "Application.TestOrders.executor": "Run",
+    "Application.TestPerson.executor": "Run",
     "Application.TestUser.executor": "Run",
     "Application.TestUserController.executor": "Run",
     "Application.TestUserControllerAnno.executor": "Run",
@@ -69,6 +81,7 @@
     "Application.com.spring.prefix.TestDemo.executor": "Run",
     "Application.com.spring.resource.TestUserController.executor": "Run",
     "Application.com.spring.springi18n.ResourceI18n.executor": "Run",
+    "Application.com.spring.validator.four.TestUser.executor": "Run",
     "JUnit.JdbcTemplateTest.testSelect.executor": "Run",
     "JUnit.JdbcTemplateTest.testSelectList.executor": "Run",
     "JUnit.JdbcTemplateTest.testSelectValue.executor": "Run",
@@ -82,6 +95,8 @@
     "JUnit.TestBook.testSetter.executor": "Run",
     "JUnit.TestBookTx.testBuyBook.executor": "Run",
     "JUnit.TestJdbc.demo2.executor": "Run",
+    "JUnit.TestMethod.testMyValidation1.executor": "Run",
+    "JUnit.TestMethod.testMyValidation2.executor": "Run",
     "JUnit.TestStu.testStu.executor": "Run",
     "JUnit.TestStu.testStu2.executor": "Run",
     "JUnit.TestUser.executor": "Run",
@@ -99,11 +114,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/yinglin/Documents/GitHub/Spring-Test/spring-i18n/src/main/java/com/spring/Main.java",
+    "onboarding.tips.debug.path": "/Users/yinglin/Documents/GitHub/Spring-Test/spring-validator/src/main/java/com/spring/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -121,17 +136,18 @@
       <recent name="$PROJECT_DIR$/spring-ioc-annotation/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring.validator.four" />
       <recent name="com.spring.springi18n" />
       <recent name="com.spring.resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.spring.springi18n.ResourceI18n">
-    <configuration name="ResourceI18n" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.javai18n.ResourceI18n" />
-      <module name="spring-i18n" />
+  <component name="RunManager" selected="Application.com.spring.validator.four.TestUser">
+    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.validator.one.TestPerson" />
+      <module name="spring-validator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.javai18n.*" />
+          <option name="PATTERN" value="com.spring.validator.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.di.TestBean" />
-      <module name="spring-resource" />
+    <configuration name="TestUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.validator.three.TestUser" />
+      <module name="spring-validator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.di.*" />
+          <option name="PATTERN" value="com.spring.validator.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.resourceloaderaware.TestDemo" />
-      <module name="spring-resource" />
+    <configuration name="com.spring.validator.four.TestUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.validator.four.TestUser" />
+      <module name="spring-validator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.resourceloaderaware.*" />
+          <option name="PATTERN" value="com.spring.validator.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,39 +181,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.spring.prefix.TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.prefix.TestDemo" />
-      <module name="spring-resource" />
+    <configuration name="TestMethod.testMyValidation1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-validator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.prefix.*" />
+          <option name="PATTERN" value="com.spring.validator.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.validator.two" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.validator.two.TestMethod" />
+      <option name="METHOD_NAME" value="testMyValidation1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.spring.springi18n.ResourceI18n" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.springi18n.ResourceI18n" />
-      <module name="spring-i18n" />
+    <configuration name="TestMethod.testMyValidation2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-validator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.springi18n.*" />
+          <option name="PATTERN" value="com.spring.validator.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.validator.two" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.validator.two.TestMethod" />
+      <option name="METHOD_NAME" value="testMyValidation2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.spring.springi18n.ResourceI18n" />
-        <item itemvalue="Application.ResourceI18n" />
-        <item itemvalue="Application.com.spring.prefix.TestDemo" />
-        <item itemvalue="Application.TestBean" />
-        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.com.spring.validator.four.TestUser" />
+        <item itemvalue="Application.TestUser" />
+        <item itemvalue="JUnit.TestMethod.testMyValidation2" />
+        <item itemvalue="JUnit.TestMethod.testMyValidation1" />
+        <item itemvalue="Application.TestPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +247,7 @@
       <workItem from="1704009386694" duration="5500000" />
       <workItem from="1704355627250" duration="11290000" />
       <workItem from="1704373656869" duration="8252000" />
-      <workItem from="1704412532573" duration="4571000" />
+      <workItem from="1704412532573" duration="8022000" />
     </task>
     <task id="LOCAL-00001" summary="upload spring first">
       <option name="closed" value="true" />
@@ -299,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704419803498</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="upload spring i18n">
+      <option name="closed" value="true" />
+      <created>1704421102514</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704421102514</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +344,8 @@
     <MESSAGE value="upload spring test" />
     <MESSAGE value="upload spring transaction" />
     <MESSAGE value="upload spring resource" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload spring resource" />
+    <MESSAGE value="upload spring i18n" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload spring i18n" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
